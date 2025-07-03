@@ -151,6 +151,7 @@ typedef struct {
     Block block1;
     Block copy0;
     Block copy1;
+    double last_commit_time;
 } Model;
 
 static Model model;
